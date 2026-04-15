@@ -939,7 +939,7 @@ def inject_css():
         }
         /* 섹션 카드 */
         .section-card {
-            border-radius: 10px;
+            border-radius: 5px;
             padding: 0.6rem 0.9rem;
             margin-bottom: 0.55rem;
             border-left: 3px solid;
