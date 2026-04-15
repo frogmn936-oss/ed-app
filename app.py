@@ -923,8 +923,8 @@ def inject_css():
         .cc-banner {
             background: linear-gradient(135deg, #1d4ed8 0%, #0f172a 100%);
             border-radius: 12px;
-            padding: 1.2rem 1.6rem;
-            margin-bottom: 1.4rem;
+            padding: 1.0rem 1.3rem;
+            margin-bottom: 1.1rem;
         }
         .cc-banner h1 {
             color: #ffffff;
@@ -942,7 +942,7 @@ def inject_css():
             border-radius: 10px;
             padding: 0.6rem 0.9rem;
             margin-bottom: 0.55rem;
-            border-left: 5px solid;
+            border-left: 3px solid;
         }
         .section-card h4 {
             font-size: 1.05rem;
