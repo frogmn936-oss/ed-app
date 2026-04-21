@@ -11,19 +11,19 @@ st.set_page_config(
 
 # ── 데이터 ───────────────────────────────────────────────────
 DATA = [
-    {
-        "Chief Complaint": "Fever (Adult) / 발열",
-        "Initial Action": "1. Assess ABCs and stabilize vitals.\n2. Initiate aggressive cooling for hyperpyrexia (>41°C).\n3. Start fluid resuscitation for signs of sepsis or shock.",
-        "Red Flag Signs & Must-not-miss": "1. Meningitis/Encephalitis (Altered mental status, nuchal rigidity).\n2. Septic Shock (Hypotension, tachycardia, mottled skin).\n3. Neutropenic Fever (Post-chemotherapy patients).\n4. Infective Endocarditis (New heart murmur).\n5. Necrotizing Fasciitis (Pain out of proportion to skin findings).",
-        "Common Causes (Top 5)": "1. Upper Respiratory Infection (URI).\n2. Urinary Tract Infection (UTI).\n3. Pneumonia.\n4. Cellulitis/Skin and Soft Tissue Infection (SSTI).\n5. Gastroenteritis.",
-        "Key History": "1. Duration and pattern of fever.\n2. Associated symptoms (Cough, dysuria, abdominal pain).\n3. Recent surgery or invasive procedures.\n4. Travel history and medication use (Drug fever).\n5. Immunocompromised status (DM, HIV, Cancer).",
-        "Physical Exam": "1. General appearance (Toxic vs. Non-toxic).\n2. Skin exam (Rashes, petechiae, surgical sites).\n3. Auscultation (Lung crackles, heart murmurs).\n4. Neurological exam (Meningeal signs).",
-        "Tests & Purpose": "1. CBC/CRP/Procalcitonin: Inflammatory markers.\n2. Blood & Urine Cultures: Identify causative organisms.\n3. UA/UC: Check for UTI.\n4. Chest X-ray: Evaluate for pneumonia.\n5. CSF Analysis: If meningitis is suspected.",
-        "Management": "1. Antipyretics (Acetaminophen or NSAIDs).\n2. Early empirical broad-spectrum antibiotics for suspected sepsis.\n3. Fluid resuscitation (Crystalloids).",
-        "Consult & Disposition": "1. Admit for sepsis, high-risk infections, or failure of outpatient treatment.\n2. Consult Infectious Disease or Surgery as indicated.",
-        "Discharge & Warning": "1. Discharge if vitals are stable, source is identified/benign, and PO intake is possible.\n2. Warning: Return if altered mental status, SOB, or persistent high fever occurs.",
-        "Pearls & Pitfalls": "1. Elderly patients may not manifest fever even with severe infection (occult sepsis).\n2. Always check for indwelling devices (IV lines, catheters) as potential sources.",
-    },
+  {
+  "Chief Complaint": "Fever (Adult) / 발열",
+  "Initial Action": "1. Assess ABCs \n2. qSOFA: GCS<15, RR≥22, SBP≤100 \n3. Fluid resuscitation for sepsis or shock.",
+  "Red Flag Signs & Must-not-miss": "1. Septic Shock \n2. Meningitis/Encephalitis \n3. Neutropenic fever (chemotherapy) \n4. Infective Endocarditis (New heart murmur).\n5. Necrotizing Fasciitis (Pain out of proportion to skin findings).",
+  "Common Causes (Top 5)": "1. Upper Respiratory Infection (URI).\n2. Urinary Tract Infection (UTI).\n3. Pneumonia.\n4. Cellulitis/Skin and Soft Tissue Infection (SSTI).\n5. Gastroenteritis.",
+  "Key History": "1. Duration and pattern of fever.\n2. Associated symptoms .\n3. Recent surgery or invasive procedures.\n4. Travel history and medication use (Drug fever).\n5. Immunocompromised status (DM, HIV, Cancer).",
+  "Physical Exam": "1. General appearance \n2. Skin exam (Rashes, petechiae, surgical sites).\n3. Auscultation (Lung crackles, heart murmurs).\n4. Neurological exam (Meningeal signs).",
+  "Tests & Purpose": "1. CBC/CRP/Procalcitonin: Inflammation \n2. Lactate : r/o hypoxia \n3. Blood & Urine Cultures \n4. UA/UC: r/o UTI \n5. CXR : r/o pneumonia \n6. CSF Analysis: r/o meningitis",
+  "Management": "1. Antipyretics : AAP or NSAIDs \n2. Early empirical broad-spectrum Abx for suspected sepsis \n3. Fluid resuscitation",
+  "Consult & Disposition": "1. Admit for sepsis, high-risk infections, or failure of outpatient treatment.\n2. Consult Infectious Disease or Surgery as indicated.",
+  "Discharge & Warning": "1. Discharge if vitals are stable, source is identified/benign, and PO intake is possible.\n2. Warning: Return - mental change, dyspnea, persistent high fever",
+  "Pearls & Pitfalls": "1. Elderly patients may not manifest fever even with severe infection (occult sepsis).\n2. Always check for indwelling devices (IV lines, catheters) as potential sources.",
+},
     {
         "Chief Complaint": "Fever (Pediatric)",
         "Initial Action": "1. Pediatric Assessment Triangle (PAT) for severity.\n2. Maintain airway and provide O2 if needed.\n3. Correct dehydration (IV or PO rehydration).",
@@ -91,13 +91,13 @@ DATA = [
   },
   {
     "Chief Complaint": "Dizziness / Vertigo / 어지럼증",
-    "Initial Action": "1. Assess vitals and neurological status.\n2. Check Bedside Glucose (BST).\n3. Administer IV fluids and antiemetics if vomiting is severe.",
-    "Red Flag Signs & Must-not-miss": "1. Posterior Circulation Stroke (Cerebellar/Brainstem).\n2. Vertebrobasilar Insufficiency (VBI).\n3. Vertebral Artery Dissection (Neck pain + vertigo).\n4. Cardiac Arrhythmia (Syncope/palpitations).\n5. Orthostatic Hypotension.",
-    "Common Causes (Top 5)": "1. Benign Paroxysmal Positional Vertigo (BPPV).\n2. Vestibular Neuritis / Labyrinthitis.\n3. Meniere’s Disease.\n4. Vestibular Migraine.\n5. Orthostatic Hypotension / Medication-induced.",
-    "Key History": "1. Duration of symptoms: Seconds (BPPV) vs. Hours/Days (Neuritis/Stroke).\n2. Triggers: Head movement, standing up, or spontaneous.\n3. Associated symptoms: Hearing loss, tinnitus, focal neuro deficits (diplopia, dysarthria).",
-    "Physical Exam": "1. HINTS Exam (Head Impulse, Nystagmus, Test of Skew): To differentiate central vs. peripheral (Only in continuous vertigo).\n2. Dix-Hallpike maneuver: For BPPV.\n3. Gait assessment: Truncal ataxia suggests central origin.",
-    "Tests & Purpose": "1. Brain MRI (DWI): Gold standard for posterior stroke (CT is insensitive).\n2. EKG: To rule out arrhythmia-related dizziness.\n3. Orthostatic Vitals.",
-    "Management": "1. Epley maneuver (for posterior canal BPPV).\n2. Vestibular suppressants (Meclizine, Diazepam) - limit to 48-72 hours.\n3. Antiemetics (Metoclopramide, Ondansetron).",
+    "Initial Action": "1. v/s & neurological status.\n2. BST check .\n3. IV fluids & antiemetics",
+    "Red Flag Signs & Must-not-miss": "1. Posterior Circulation Stroke (Cerebellar/Brainstem) \n2. Vertebrobasilar Insufficiency (VBI) \n3. Vertebral Artery Dissection (Neck pain + vertigo) \n4. Cardiac Arrhythmia (Syncope/palpitations) \n5. Orthostatic Hypotension.",
+    "Common Causes (Top 5)": "1. Benign Paroxysmal Positional Vertigo (BPPV) \n2. Vestibular Neuritis / Labyrinthitis \n3. Meniere’s Disease \n4. Vestibular Migraine.\n5. Orthostatic Hypotension / Medication-induced.",
+    "Key History": "1. Duration: Seconds (BPPV) vs. Hours/Days (Neuritis/Stroke) \n2. Triggers: Head movement, standing up, or spontaneous \n3. Associated Sx: Hearing loss, tinnitus, focal neuro deficits (diplopia, dysarthria).",
+    "Physical Exam": "1. HINTS Exam (Head Impulse, Nystagmus, Test of Skew): Only in continuous vertigo. VN vs central \n2. Dix-Hallpike : r/o BPPV \n3. Gait : Truncal ataxia suggests central origin.",
+    "Tests & Purpose": "1. Brain MRI (DWI): Gold standard for posterior stroke \n2. EKG: r/o arrhythmia-related dizziness \n3. Orthostatic Vitals ",
+    "Management": "1. Epley maneuver (for posterior canal BPPV).\n2. Vestibular suppressants (Meclizine, Diazepam) - limit to 48-72 hours \n3. Antiemetics (Metoclopramide, Lorazepam)",
     "Consult & Disposition": "1. Neurology consult for suspected central vertigo or HINTS positive for stroke.\n2. Discharge peripheral vertigo if symptoms are controlled and patient can walk.",
     "Discharge & Warning": "1. Discharge with vestibular exercises and follow-up.\n2. Warning: Return immediately if new neurological deficits, severe headache, or inability to walk occur.",
     "Pearls & Pitfalls": "1. 'Infantile' HINTS (HINTS+) is more sensitive for stroke than early MRI.\n2. Do not use the HINTS exam in patients with episodic (non-continuous) vertigo."
